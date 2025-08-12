@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ChatOverlay by merhaf</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="overlay">
+        <div :class="{ visible: isPlayingOrWatching, hidden: !isPlayingOrWatching }">
+            <!-- 아래 URL에 너의 채팅창 링크를 넣으세요 -->
+            <iframe src="http://example.com/" style="border:none;" width="100%" height="600"></iframe>
+        </div>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="js/reconnecting-websocket.min.js"></script>
+	<script src="js/index.js"></script>
+    <script src="js/Vueapp.js" type="module"></script>
+  </body>
+</html>

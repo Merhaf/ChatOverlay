@@ -1,0 +1,7 @@
+Usecase: ingame,obs-overlays
+Name: ChatOverlay
+Version: 0.1
+Author: Merhaf
+CompatibleWith: tosu
+Resolution: 200x620
+authorLinks: https://github.com/merhaf

@@ -1,0 +1,9 @@
+.hidden { /* 안 보일 때 투명도 (1이면 100% 밝기 , 0이면 0% 밝기) */
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.visible { /* 보일 때 투명도 (1이면 100% 밝기 , 0이면 0% 밝기) */
+  opacity: 0.5;
+  transition: 0.3s;
+}
